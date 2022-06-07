@@ -25,23 +25,28 @@ INSERT INTO internships values
 
 .print
 .print 'Internships list'
+.print '---'
 SELECT * FROM internships;
 .print
 
 .print 'In order from job title'
+	.print '---'
 SELECT * FROM internships
 ORDER BY title;
 .print
 
 .print 'In order from company'
+.print '---'
 SELECT * FROM internships
 ORDER BY company;
 .print
 
 .print 'Job Descriptions'
+.print '---'
 SELECT description FROM internships;
 .print
 
 .print 'Job Locations'
+.print '---'
 SELECT location FROM internships;
 .print
