@@ -37,3 +37,11 @@ ORDER BY title;
 SELECT * FROM internships
 ORDER BY company;
 .print
+
+.print 'Job Descriptions'
+SELECT description FROM internships;
+.print
+
+.print 'Job Locations'
+SELECT location FROM internships;
+.print
