@@ -6,11 +6,12 @@ CREATE TABLE internships
 	description TEXT,
 	paid BOOLEAN,
 	location TEXT,
-	company TEXT
+	company TEXT,
+	requirement TEXT
 );
 
 INSERT INTO internships values
-("Concept Artist", 2022, 2022, "lorem ipsum", false, "Irvine, California", "Obsidian Entertainment");
+("UX Design Intern", 2022, 2022, "lorem ipsum", false, "San Francisco, California", "Twitch", "BA/BS Graduation Year 2023/2024");
 
 .print
 .print 'Internships list'
